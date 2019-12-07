@@ -1,40 +1,30 @@
 # TC-100
 A High-Tech Conky Theme in four colors: white, blue, green and red.
-![Screen01](https://user-images.githubusercontent.com/9018264/66082903-89db5b00-e541-11e9-8ec8-a2d677674427.png)
+![Screen01](https://cloud.vstans.nl/index.php/s/Wwf38PAnZLicWCT)
 
 ## Requirements
 - Conky installed
 ## Install
 Download and extract the project in your system.
-Copy the content of the folder **fonts/** to the directory **~/.fonts/**
-```shell
-cp fonts/* ~/.fonts/
 ```
-Copy the folder **TC-100** for the directory **~/.conky/**
+Copy the folder **TC-100** for the directory **~/.config/conky/**
 ```shell
-cp TC-100/ ~/.conky
+cp TC-100/ ~/.config/conky
 ```
+Copy the conky.conf to the conky default user directory **~/.config/conky/conky.conf**
+```shell
+cp ~/.config/conky/TC-100/conky.conf ~/.config/conky/
+
 ## Execute
 To run the conky theme, choose a color and run the commands:
-For the default color (white):
+For the default color (blue):
 ```shell
-conky -q -c ~/.conky/TC-100/tc100
-```
-For the blue color:
-```shell
-conky -q -c ~/.conky/TC-100/tc100-blue
-```
-For the green color:
-```shell
-conky -q -c ~/.conky/TC-100/tc100-green
-```
-For the red color:
-```shell
-conky -q -c ~/.conky/TC-100/tc100-red
+conky -q
 ```
 **Note:** just run one of the commands to not overwrite the previous theme.
 
 ## Configuration
+Open conky.conf with a text editor. Set your COLOR choice and BACKGROUD there.
 Find out the name of the network device you want to monitor (use the commands "ip a" or "ifconfig") and copy the device name as in the image below:
 ![Terminal](https://user-images.githubusercontent.com/9018264/66083822-8517a680-e543-11e9-8d7a-50e2c4b52fb4.png)
 
