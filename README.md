@@ -1,6 +1,6 @@
 # TC-100
 A High-Tech Conky Theme in four colors: white, blue, green and red.
-![Screen01](https://cloud.vstans.nl/index.php/s/Wwf38PAnZLicWCT)
+![Image description](https://cloud.vstans.nl/index.php/s/Wwf38PAnZLicWCT)
 
 ## Requirements
 - Conky installed
